@@ -18,7 +18,7 @@ This app demonstrates the use of:
 
 ## Demo
 
-> Live Demo Coming Soon (optional: deploy with GitHub Pages or [Render.com](https://render.com))
+> Live Demo Coming Soon 
 
 ---
 
