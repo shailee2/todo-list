@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# React To-Do List Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and minimalist **To-Do List** app built with **React.js**, featuring clean UI and full task lifecycle management. Users can add tasks, mark them as completed, and delete them—all with real-time updates using React state and props.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This app demonstrates the use of:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Functional Components
+- React Hooks (`useState`)
+- Component-based architecture
+- Controlled form inputs
+- Dynamic rendering with real-time updates
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Live Demo Coming Soon (optional: deploy with GitHub Pages or [Render.com](https://render.com))
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js** (Functional components, hooks)
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
+- **npm & Create React App**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Add new tasks  
+Delete existing tasks  
+Toggle task completion  
+Real-time updates with local state  
+Modular components  
+Clean UI and styling (extendable)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+todo-list/
 
-## Learn More
+├── public/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+├── src/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+│ ├── components/
 
-### Code Splitting
+│ │ ├── TodoItem.js # Individual task item
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+│ │ └── TodoList.js # Manages task state and input
 
-### Analyzing the Bundle Size
+│ ├── App.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+│ ├── index.js
 
-### Making a Progressive Web App
+│ └── App.css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+├── package.json
 
-### Advanced Configuration
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Component Architecture
 
-### `npm run build` fails to minify
+### `TodoList.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Handles the application’s core state (`tasks`) and form input. Provides:
+
+- `addTask()` for creating new items
+- `deleteTask()` for removing items
+- `toggleCompleted()` to toggle completion state
+
+
+### `TodoItem.js`
+
+- Receives a task prop and renders:
+- A checkbox (to toggle completion)
+- The task text
+- A delete button
+
+##  What I Learned
+- How to manage local state with useState
+- Building modular, reusable React components
+- Handling user input with controlled form elements
+- Functional patterns in React development
+- Clean UI logic and separation of concerns
+
+## Future Enhancements
+- Add persistent storage with localStorage or Firebase
+- Add due dates and calendar view
+- Improved styling and animations
+- Mobile-first responsive design
+- Task statistics or progress bar
+
+## Author
+Shailee Patel
+- shaileepatel05@gmail.com
