@@ -102,5 +102,8 @@ Handles the application’s core state (`tasks`) and form input. Provides:
 - Task statistics or progress bar
 
 ## Author
-Shailee Patel
-- shaileepatel05@gmail.com
+Shailee Patel <br>
+Email: shaileepatel05@gmail.com <br>
+LinkedIn: linkedin.com/in/shailee-patel-04481b285<br>
+GitHub: github.com/shailee2
+
